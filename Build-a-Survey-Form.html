@@ -1,0 +1,63 @@
+<main>
+    <h1 id="title">Title</h1>
+    <p id="description">Short Description</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">
+            <input id="name" type="text" placeholder="Enter name"> Name
+        </label><br>
+        <label id="email-label" for="email">
+            <input type="email" id="email" placeholder="Enter email"> Email
+        </label><br>
+        <label id="number-label" for="number">
+            <input type="number" id="number" placeholder="Enter a number" min="3" max="8"> Number
+        </label><br>
+        <label for="dropdown">
+            <select id="dropdown">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select><br>
+        </label>
+        <label for="Radio1">   
+            <input type="radio" id="Radio1" name="RadioSelect" value="1">Radio1
+        </label>
+        <label for="Radio2">
+            <input type="radio" id="Radio2" name="RadioSelect" value="2">Radio2
+        </label>
+        <label for="Radio3">    
+            <input type="radio" id="Radio3" name="RadioSelect" value="3">Radio3
+        </label><br>
+        <div>
+        <label for="Check1">
+            <input type="checkbox" id="Check1" name="CheckBoxes" value="Check1">Check1
+        </label>
+        <label for="Check2">
+            <input type="checkbox" id="Check2" name="CheckBoxes" value="Check2">Check2
+        </label>
+        
+        <label for="Check3">
+            <input type="checkbox" id="Check3" name="Checkboxes" value="Check3">Check3
+        </label>
+        </div><br>
+        <label for="comments">
+            <textarea id="comments" placeholder="Additional Comments"></textarea>
+        </label><br><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <style>
+        div {
+            border-style: solid;
+            border-width: 5px;
+        }
+        
+        form {
+            width: 300px;
+        }
+
+        #comments {
+            height: 100px;
+            width: 300px:
+        }
+    </style>
+</main>
